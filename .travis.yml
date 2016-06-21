@@ -48,14 +48,6 @@ matrix:
         - PATH=$PWD/cmake/bin:$PATH
       addons: *ao_gcc5
 
-    # # GCC/Debug
-    # - compiler: gcc
-    #   env: GCC_VER=5 VARIANT=debug ADDRESS_MODEL=64
-    #   addons: *ao_gcc5
-    #   branches: # NOTE: this does NOT work, though it SHOULD
-    #     - master
-    #     - develop
-
     # Clang/UndefinedBehaviourSanitizer
     - compiler: clang
       env:
