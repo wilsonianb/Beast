@@ -11,7 +11,7 @@
 #include <beast/http/message.hpp>
 #include <beast/http/parser_v1.hpp>
 #include <beast/http/read.hpp>
-#include <beast/http/string_body.hpp>
+// #include <beast/http/string_body.hpp>
 #include <beast/http/write.hpp>
 #include <beast/core/handler_alloc.hpp>
 #include <beast/core/prepare_buffers.hpp>
